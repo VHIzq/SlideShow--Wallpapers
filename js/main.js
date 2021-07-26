@@ -14,9 +14,11 @@ images[3] = "/imgs/img4.jpg";
 //selecting img buttons function
 nextBtn.addEventListener("click", () =>{
     document.slide.src = images[index];
-    if(index < images.length -1){
-        index++;
+    index++;
+    if(index > images.length -1){
+        index = 0;
     }
+    
 })
 prevBtn.addEventListener("click", ()=>{
     document.slide.src = images[index];
