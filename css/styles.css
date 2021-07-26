@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.slideshow-container{
+    display: flex;
+    justify-content: center;
+    background: lightcoral;
+    align-items: center;
+}
+.slideshow-container img{
+    height: 100vh;
+}
+.button{
+    margin: 5px;
+    border: 1px solid #fff;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button:hover{
+    background: #fff;
+}
